@@ -1,7 +1,7 @@
 HardWell - Tienda de Componentes 🖥️
 ¡Bienvenido a HardWell! Este es un proyecto interactivo que simula una tarjeta de producto para una memoria RAM de alto rendimiento. Permite a los usuarios gestionar la cantidad de productos y calcular el total a pagar en tiempo real.
 
-🔗 Link al proyecto:
+🔗 Link al proyecto: https://peddrom.github.io/HardWell/
 
 🚀 Características
 Cálculo en Tiempo Real: El total a pagar se actualiza automáticamente al sumar o restar productos.
