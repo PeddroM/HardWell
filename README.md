@@ -26,6 +26,7 @@ Bootstrap 5: Soporte para la estructura base y navegación.
 FontAwesome: Iconografía para los controles y el carrito.
 
 👥 Creadores
+
 Diego González
 
 Pedro Mollers
