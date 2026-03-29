@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HardWell</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/808ac7b3e4.js" crossorigin="anonymous"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./assets/images/power-off-solid.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/hardwell_logo.png" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="card-wrapper">
+
+      <main class="cards">
+
+        <div class="card-img-container">
+          <img src="./assets/images/ram.png" alt="Laptop Gamer AMD" id="product-img" />
+        </div>
+
+        <div class="card-content">
+          <h3 class="product-title">Memoria Ram 16gb TUF</h3>
+
+          <p class="price-container">
+            <span class="label">Precio base:</span>
+            <span class="value">$<span id="base-price">400000</span></span>
+          </p>
+
+          <div class="quantity-controls">
+            <p class="qty-label">
+              Cantidad: <span id="quantity-display">0</span>
+            </p>
+
+            <div class="button-group">
+              <button
+                class="qty-btn"
+                id="add-btn"
+                aria-label="Aumentar cantidad"
+              >
+                <i class="fa-solid fa-plus"></i>
+
+              </button>
+              <button
+                class="qty-btn"
+                id="minus-btn"
+                aria-label="Disminuir cantidad"
+              >
+               
+              <i class="fa-solid fa-minus"></i>
+
+              </button>
+
+              <button
+                class="qty-btn"
+                id="trash-btn"
+                aria-label="Borrar cantidad"
+              >
+               
+              <i class="fa-solid fa-trash"></i>
+
+              </button>
+
+
+
+            </div>
+          </div>
+
+          <aside class="total-container">
+            <p>Total a pagar: $<span id="total-price">0</span></p>
+          </aside>
+
+          <button class="shopping-cart">
+            <i class="fa-solid fa-cart-shopping"></i> Añadir al carro
+          </button>
+          
+        </div>
+      </main>
+    </div>
+    <footer>
+      <p>&copy; 2026 Hardwell. All rights reserved.</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./assets/js/documento.js"></script>
+  </body>
+</html>
